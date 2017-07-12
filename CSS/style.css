@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+h1{
+    font-family: JosefinSlab-SemiBold;
+    font-size: 36px;
+    color: #6E6E6E;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    opacity: 0.88;
+    font-family: Iceland-Regular;
+    font-size: 24px;
+    color: #6E6E6E;
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-family: Lancelot;
+    font-size: 18px;
+    color: #E0E0E0;
+    letter-spacing: 0.01px;
+    background-color: #444444;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Suravaram;
+    font-size: 18px;
+    color: #686868;
+    letter-spacing: 0.01px;
+    margin: 0;
+    padding: 0;
+}
+.BG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 83.99rem;
+    position: absolute;
+    /* BG: */
+    background-image: linear-gradient(-180deg, #F2F2F2 0%, #F9F9F9 53%);
+}
+.maincontainer{
+    z-index: 200;
+    position: absolute;
+    width: 100%;
+    height: 83.99rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ex_container{
+    width: 50%;
+    height:83.99rem;
+    display: flex;
+    flex-direction: column;
+}
+.RecBG{
+    background: #F9F9F9;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+}
+.menu{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.h1-margin{
+    padding-right: 7.5rem;
+    padding-top: 1.67rem;
+}
+.number-margin{
+    padding-top: 4rem;
+}
+.Artist-margin{
+    padding-top:6.17rem;
+}
+.p-margin{
+    padding-top: 0.5rem;
+}
+.lyric-margin{
+    padding-top: 8.5rem;
+}
+.ly-txt-margin{
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+.buy-margin{
+    padding-top: 6rem;
+    display: flex;
+}
+.buy{
+    padding-left: 2em;
+}
+.buynumber{
+    padding-top: 0.5rem;
+}
