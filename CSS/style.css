@@ -52,12 +52,13 @@ p{
     to {-webkit-transform: rotate(360deg);}
 }
 
-.Rotation{
+#Rotation{
     -webkit-transform: rotate(360deg);
     animation: rotation 8s linear infinite;
     -moz-animation: rotation 8s linear infinite;
     -webkit-animation: rotation 8s linear infinite;
     -o-animation: rotation 8s linear infinite;
+    animation-play-state: paused;
 }
 
 .maincontainer{
