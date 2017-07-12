@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="BG">
-        <img src="image/Album.png" class="img-BG" alt="album">
+        <img src="image/Album.png" class="Rotation" alt="album">
     </div>
     <div class="maincontainer">
         <div class="ex_container RecBG">
@@ -70,22 +70,23 @@
         <div class="ex_container">
             <div style="display: flex;justify-content: flex-end;">
                 <div style="flex-direction: column; padding-right: 7rem">
-                    <div style="padding-top: 6.75rem; padding-bottom: 6rem;width: 24px;height: 24px;">
+                    <div class="close-icon">
                         <img src="image/Close.png" alt="Close">
                     </div>
-                    <div style="width: 24px;height: 24px;padding-top: 14.08rem;">
+                    <div class="right-icon">
                         <img src="image/skip-previous.png" alt="skip-previous">
                     </div>
-                    <div style="width: 24px;height: 24px;padding-top: 14.08rem;">
+                    <div class="right-icon">
                         <audio id="music2" src="Music/We_don't_talk_any_more.mp3" loop="loop">你的浏览器不支持audio标签。</audio>
                         <a href="javascript:playPause();"><img src="image/play.png" width="24" height="24" id="music_btn2" border="0"></a>
                     </div>
-                    <div style="width: 24px;height: 24px;padding-top: 14.08rem;">
-                        <input type="image" src="image/skip-next.png" onclick="document.getElementById('my').play()"/>
+                    <div class="right-icon">
+                        <img src="image/skip-next.png" alt="skip-next">
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 </html>
