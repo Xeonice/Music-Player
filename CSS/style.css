@@ -57,8 +57,6 @@ p{
 .ex_container{
     width: 50%;
     height:83.99rem;
-    display: flex;
-    flex-direction: column;
 }
 .RecBG{
     background: #F9F9F9;
@@ -97,4 +95,13 @@ p{
 }
 .buynumber{
     padding-top: 0.5rem;
+}
+.right-icon{
+    width: 24px;
+    height: 24px;
+    padding-top: 14.08rem;
+}
+.close-icon{
+    padding-top: 6.75rem;
+    padding-bottom: 6rem;
 }
